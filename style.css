@@ -64,8 +64,12 @@ nav ul {
     overflow: hidden;
 }
 
-nav ul li {
-    float: left;
+nav ul li .right {
+    float:right;
+}
+
+nav ul li .left {
+    float:left; 
 }
 
 nav li a {
@@ -83,7 +87,5 @@ nav li a:hover {
 nav li a.active {
     background-color: #3a4868;
 }
-
-
 
 
