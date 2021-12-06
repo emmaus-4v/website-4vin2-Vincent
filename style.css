@@ -93,4 +93,56 @@ nav li a:hover {
 }
 
 
+/* tabellen */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+}
+
+.table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: -100px;
+    padding: 20px;
+}
+
+.table2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: -100px;
+    margin-left: -300px;
+    position: relative;
+    left: 700px;
+    top: -1146px;
+
+}
+
+.table3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: -100px;
+    margin-left: -300px;
+    position: relative;
+    left: 150px;
+
+}
+
+.table4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: -100px;
+    margin-left: -300px;
+    position: relative;
+    left: 650px;
+    top: -2645px;
+
+}
+
 
