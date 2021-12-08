@@ -8,6 +8,10 @@ html, body {
     color: #bbdddd;
     font: Verdana, Arial, Sans-Serif;
     text-align:center;
+
+    overflow-x:hidden;
+    overflow-y:inherit;
+     scrollbar-width: none;
 }
 
 
