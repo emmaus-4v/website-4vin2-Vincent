@@ -1,4 +1,9 @@
 /* Basislayout */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
 html, body {
     height: 100%;
@@ -8,16 +13,18 @@ html, body {
     color: #bbdddd;
     font: Verdana, Arial, Sans-Serif;
     text-align:center;
-
+/*
     overflow-x:hidden;
     overflow-y:inherit;
      scrollbar-width: none;
+     */
 }
 
 
 main {
+    border: 1px solid white;
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -104,6 +111,12 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     padding: 20px;
+}
+
+.index {
+    padding: 0px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .table1 {
