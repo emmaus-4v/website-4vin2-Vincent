@@ -22,7 +22,7 @@ html, body {
 
 
 main {
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 0 auto;
     width: 1000px;
     position: relative;
@@ -117,49 +117,25 @@ table, th, td {
     padding: 0px;
     font-size: 21px;
     font-weight: bold;
+    padding: 100px;
 }
 
 .table1 {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    margin-left: -100px;
-    padding: 20px;
+    float: left;
+    margin: 39px;
+    width: 420px;
 }
 
 .table2 {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    margin-right: -100px;
-    margin-left: -300px;
-    position: relative;
-    left: 700px;
-    top: -1146px;
-
-}
-
-.table3 {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    margin-right: -100px;
-    margin-left: -300px;
-    position: relative;
-    left: 150px;
-
-}
-
-.table4 {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    margin-right: -100px;
-    margin-left: -300px;
-    position: relative;
-    left: 650px;
-    top: -2645px;
-
+    float: right;
+    margin: 39px;
+    width: 420px;
 }
 
 
